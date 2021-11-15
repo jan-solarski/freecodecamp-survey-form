@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap");
+
+html {
+  font-size: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  color: white;
+  font-size: 2rem;
+  background-image: url(https://cdn.pixabay.com/photo/2016/03/22/15/29/blue-1273089_1280.jpg);
+  background-size: cover;
+  padding: 0 10px;
+}
+
+.container {
+  max-width: 50%;
+  width: 100%;
+  background-color: rgba(0, 0, 255, 0.144);
+  margin: 20px auto;
+  padding: 30px;
+  box-shadow: 3px 5px 5px 5px;
+}
+
+#title {
+  font-size: 25px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#description {
+  font-style: italic;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.survey-form {
+  width: 100%;
+  display: grid;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+button {
+  cursor: pointer;
+  width: 25%;
+  height: 30px;
+  align-self: center;
+  background-color: rgba(17, 149, 226, 0.295);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 30px;
+  border: 1px solid black;
+  transition: all 0.2s;
+  margin-left: 37%;
+}
+
+button:hover {
+  border-color: white;
+  box-shadow: 0 0.5em 0.5em -0.4em #fafce8;
+  transform: translateY(-0.2em);
+}
